@@ -1,18 +1,12 @@
 {
-    "name": "nyc/nyc_migrate",
-    "description": "This extension provides new commands for Drush.",
-    "type": "drupal-drush",
+    "name": "crystalbit-us/cb_migrate",
+    "description": "Content migration functionality including a set of custom drush migrate commands.",
+    "type": "project",
     "authors": [
-
-    ],
-    "require": {
-        "php": ">=5.6.0"
-    },
-    "extra": {
-        "drush": {
-            "services": {
-                "drush.services.yml": "^9"
-            }
+        {
+            "name": "James Tarleton",
+            "email": "jamestarleton@gmail.com"
         }
-    }
+    ],
+    "require": {}
 }
